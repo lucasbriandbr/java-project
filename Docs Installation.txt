@@ -1,0 +1,3 @@
+wPour requêter dans la base de données mysql, il faut définir la variable classpath.
+
+Accédez aux propriétés de votre ordinateur, puis Paramètres système avancés, Allez dans la variable d’environnement puis cliquez sur le nouvel onglet. Dans le nom de la variable, écrivez classpath et dans la valeur de la variable, collez le chemin vers mysql-connector.jar en ajoutant mysql-connector.jar;.; comme c:/../Github/java_project/mysql-connector.jar;.;
