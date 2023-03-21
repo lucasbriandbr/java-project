@@ -56,6 +56,9 @@ public class GestionUtilisateurs {
         //  Ajouter la barre de menu à la fenêtre
         frame.setJMenuBar(menuBar);
 
+        //  Appeler la méthode getUsers
+        
+
     }
     
 }

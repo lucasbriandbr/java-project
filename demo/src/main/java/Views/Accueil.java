@@ -4,6 +4,7 @@ package Views;
 import javax.swing.*;
 import Views.*;
 
+// 
 public class Accueil {
 
     //  Définir le titre de la fenêtre
