@@ -2,6 +2,7 @@ package Views;
 
 //  Importer les librairies
 import javax.swing.*;
+import Views.*;
 
 public class Accueil {
 
@@ -84,6 +85,17 @@ public class Accueil {
         //  Ajouter l'item au menu
         menu.add(item3);
 
+        //  Ajouter un quatrième item au menu
+        JMenuItem item4 = new JMenuItem("Gestion des utilisateurs");
+
+        //  Ajouter l'action de l'item
+        item4.addActionListener(e -> {
+            frame.dispose();
+            new GestionUtilisateurs();
+        });
+
+        //  Ajouter l'item au menu
+        menu.add(item4);
 
         //  Ajouter le menu à la barre de menu
         menuBar.add(menu);
